@@ -4,7 +4,7 @@ import { Row, Col } from 'react-bootstrap';
 export default function Contact() {
   return (
     <div className="content-header">
-      <Row>
+      <Row className="content-header-row">
         <Col>
           <h3>Get In Touch!</h3>
         </Col>

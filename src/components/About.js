@@ -1,12 +1,21 @@
 import React from 'react';
-import { Container, Row, Col, Image, Stack } from 'react-bootstrap';
+import {
+  Container,
+  Row,
+  Col,
+  Image,
+  Stack,
+  Table,
+  Button,
+} from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
+import { FaFileDownload } from 'react-icons/fa';
 
 export default function AboutMe() {
   return (
     <>
-      <Container className="bio-header">
-        <Row>
+      <Container className="bio-header-container">
+        <Row className="bio-header-row">
           <Col>
             <Image
               fluid
@@ -19,7 +28,7 @@ export default function AboutMe() {
           <Col xs={8}>
             <h1>Justin Miles</h1>
             <h6>Full-Stack Developer</h6>
-            <Stack direction="horizontal" gap={3}>
+            <Stack className="social-stack mt-3" direction="horizontal" gap={3}>
               <SocialIcon
                 bgColor="#fff"
                 url="https://linkedin.com/in/milesjustin"
@@ -30,24 +39,51 @@ export default function AboutMe() {
           </Col>
         </Row>
       </Container>
-      <Container>
-        <Row>
+      <Container className="about-container">
+        <Row className="about-row">
           <Col className="mt-3">
-            <h5>ABOUT ME</h5>
+            <h5>
+              About <span className="green-text">Me</span>
+            </h5>
             <p>
               Hello! I'm Justin Miles. I am a dedicated and determined developer
               fueled by passion and focused on creating effective solutions for
               modern problems. As the challenges we face today continue to
               evolve, so do I.
             </p>
+            <Button variant="success">
+              <FaFileDownload /> Download Resume
+            </Button>
           </Col>
           <Col className="mt-3">
-            <p>Age: 29</p>
-            <p>Residence: USA</p>
-            <p>Address: Los Angeles, USA</p>
-            <p>E-mail: email@example.com </p>
-            <p>Phone: +0123 123 456 789</p>
-            <p>Freelance: Available</p>
+            <Table responsive size="sm" className="info-table">
+              <tbody>
+                <tr>
+                  <td>Age:</td>
+                  <td>31</td>
+                </tr>
+                <tr>
+                  <td>Residence:</td>
+                  <td>USA</td>
+                </tr>
+                <tr>
+                  <td>Address:</td>
+                  <td>Northbrook, IL</td>
+                </tr>
+                <tr>
+                  <td>Email:</td>
+                  <td>jdm@mailmasker.com</td>
+                </tr>
+                <tr>
+                  <td>Phone:</td>
+                  <td>555-123-4567</td>
+                </tr>
+                <tr>
+                  <td>Freelance:</td>
+                  <td>Available</td>
+                </tr>
+              </tbody>
+            </Table>
           </Col>
         </Row>
       </Container>

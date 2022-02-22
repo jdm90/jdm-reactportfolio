@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <div>
       <div className="content-header">
-        <Row>
+        <Row className="content-header-row">
           <Col>
             <h3>Skills</h3>
           </Col>
