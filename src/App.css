@@ -1,38 +1,45 @@
+body {
+  background-image: url(./images/bgphoto-drewbeamer-unsplash.jpeg);
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-content {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main-container {
+  background-color: #fff;
+  color: #000;
+  margin: 0 auto;
+  border-radius: 25px;
+  height: 75vh;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bio-header {
+  background-color: #0f9d58;
+  color: #fff;
+  height: 50%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.content-header {
+  background-color: #0f9d58;
+  color: #fff;
+  height: 15vh;
+  max-width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bio-photo {
+  height: 50%;
+}
+
+.abc {
+  background-color: red;
 }
