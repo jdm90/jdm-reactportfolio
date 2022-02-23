@@ -15,6 +15,7 @@ export default function Works() {
       <Container>
         yoyo
         <FaBeer />
+        <p>stay tuned for examples and links to my work!</p>
       </Container>
     </>
   );

@@ -76,3 +76,8 @@ body {
 .social-stack {
   justify-content: center;
 }
+
+button {
+  text-decoration: none;
+  background-color: transparent;
+}

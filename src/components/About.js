@@ -25,7 +25,7 @@ export default function AboutMe() {
               className="bio-photo"
             ></Image>
           </Col>
-          <Col xs={8}>
+          <Col xs={6}>
             <h1>Justin Miles</h1>
             <h6>Full-Stack Developer</h6>
             <Stack className="social-stack mt-3" direction="horizontal" gap={3}>
