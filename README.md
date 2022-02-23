@@ -1,3 +1,7 @@
+# Justin Miles - React Portfolio Page
+
+This my developer portfolio project that I am building with React and React Bootstrap.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
