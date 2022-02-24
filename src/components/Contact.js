@@ -15,10 +15,14 @@ export default function Contact() {
         <p>Want to hire me or collab on a project? Let's connect!</p>
         <Row>
           <Col xs={12} lg={6}>
-            <h5>Get In Touch!</h5>
+            <h5>
+              Get in <span className="green-text">Touch!</span>
+            </h5>
           </Col>
           <Col xs={12} lg={6}>
-            <h5>Contact Form</h5>
+            <h5>
+              Contact <span className="green-text">Form</span>
+            </h5>
             <div class="container mt-3">
               <form class="row g-3">
                 <div class="col-10">
