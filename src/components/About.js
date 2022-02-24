@@ -41,7 +41,7 @@ export default function AboutMe() {
       </Container>
       <Container className="about-container">
         <Row className="about-row">
-          <Col className="mt-3">
+          <Col className="mt-3" xs={12} lg={6}>
             <h5>
               About <span className="green-text">Me</span>
             </h5>
@@ -55,7 +55,7 @@ export default function AboutMe() {
               <FaFileDownload /> Download Resume
             </Button>
           </Col>
-          <Col className="mt-3">
+          <Col className="mt-3" xs={12} lg={6}>
             <Table responsive size="sm" className="info-table">
               <tbody>
                 <tr>
