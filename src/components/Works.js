@@ -13,9 +13,13 @@ export default function Works() {
         </Row>
       </div>
       <Container>
-        yoyo
-        <FaBeer />
+        <p>yoyoyo</p>
         <p>stay tuned for examples and links to my work!</p>
+        <p>
+          for now, check out my work on github @ https://www.github.com/jdm90
+        </p>
+        <p>until next time, stay frosty...</p>
+        <FaBeer />
       </Container>
     </>
   );
