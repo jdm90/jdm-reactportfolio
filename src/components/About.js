@@ -39,7 +39,7 @@ export default function AboutMe() {
           </Col>
         </Row>
       </Container>
-      <Container className="about-container">
+      <Container className="about-container mt-3">
         <Row className="about-row">
           <Col className="mt-3" xs={12} lg={6}>
             <h5>

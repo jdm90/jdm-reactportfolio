@@ -12,7 +12,7 @@ export default function Works() {
           </Col>
         </Row>
       </div>
-      <Container>
+      <Container className="mt-3">
         <p>yoyoyo</p>
         <p>stay tuned for examples and links to my work!</p>
         <p>
