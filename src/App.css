@@ -30,6 +30,41 @@ body {
   border-top-right-radius: 25px;
 }
 
+.contact-form {
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  color: #0f9d58;
+  display: flex;
+  align-self: center;
+  min-width: 50px;
+  min-height: 1.2rem;
+  text-align: center;
+}
+
+.btn {
+  background-color: #0f9d58;
+  color: white;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  color: white;
+  font-weight: bold;
+  opacity: 1;
+}
+
 .content-header {
   background-color: #0f9d58;
   color: #fff;

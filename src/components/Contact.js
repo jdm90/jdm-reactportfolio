@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { FaUser, FaComment, FaEnvelope } from 'react-icons/fa';
+import MapComponent from './MapComponent';
 
 export default function Contact() {
   return (
@@ -11,59 +13,65 @@ export default function Contact() {
           </Col>
         </Row>
       </div>
-      <Container>
+      <Container className="mt-3">
         <p>Want to hire me or collab on a project? Let's connect!</p>
         <Row>
           <Col xs={12} lg={6}>
             <h5>
-              Get in <span className="green-text">Touch!</span>
+              Get in <span className="green-text">Touch</span>
             </h5>
+            <MapComponent />
           </Col>
           <Col xs={12} lg={6}>
             <h5>
               Contact <span className="green-text">Form</span>
             </h5>
             <div class="container mt-3">
-              <form class="row g-3">
-                <div class="col-10">
-                  <label for="fullName" class="form-label">
-                    Full Name
-                  </label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="fullName"
-                    required
-                  />
-                </div>
-                <div class="col-10">
-                  <label for="emailInfo" class="form-label">
-                    E-mail
-                  </label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="emailInfo"
-                    required
-                  />
-                </div>
-                <div class="col-10">
-                  <label for="comments" class="form-label">
-                    Comments, questions?
-                  </label>
-                  <textarea
-                    class="form-control"
-                    id="comments"
-                    rows="3"
-                    required
-                  ></textarea>
-                </div>
-                <div class="col-md-12">
-                  <button type="submit" class="btn btn-primary">
-                    Send it!
-                  </button>
-                </div>
-              </form>
+              <Container>
+                <form class="row g-3 contact-form">
+                  <div class="col-12">
+                    <div class="input-container">
+                      <FaUser className="icon" />
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="fullName"
+                        placeholder="Full Name"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="input-container">
+                      <FaEnvelope className="icon" />
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="emailInfo"
+                        placeholder="Email Address"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="input-container">
+                      <FaComment className="icon" />
+                      <textarea
+                        class="form-control"
+                        id="comments"
+                        placeholder="Message Me"
+                        rows="3"
+                        required
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <button type="submit" class="btn">
+                      Send It!
+                    </button>
+                  </div>
+                </form>
+              </Container>
             </div>
           </Col>
         </Row>
