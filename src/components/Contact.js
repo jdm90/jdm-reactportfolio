@@ -9,12 +9,14 @@ export default function Contact() {
       <div className="content-header">
         <Row className="content-header-row">
           <Col>
-            <h3>Get In Touch!</h3>
+            <h3>Contact</h3>
           </Col>
         </Row>
       </div>
       <Container className="mt-3">
-        <p>Want to hire me or collab on a project? Let's connect!</p>
+        <p>
+          Have a question or want to collaborate on a project? Let's connect!
+        </p>
         <Row>
           <Col xs={12} lg={6}>
             <h5>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
-import { FaBeer } from 'react-icons/fa';
 
 export default function Works() {
   return (
@@ -13,13 +12,12 @@ export default function Works() {
         </Row>
       </div>
       <Container className="mt-3">
-        <p>yoyoyo</p>
-        <p>stay tuned for examples and links to my work!</p>
+        <p>Hello - welcome to my site!</p>
+        <p>Please stay tuned for examples and links to my work, coming soon.</p>
         <p>
-          for now, check out my work on github @ https://www.github.com/jdm90
+          For now, you can check out all my work on{' '}
+          <a href="https://www.github.com/jdm90">Github</a>
         </p>
-        <p>until next time, stay frosty...</p>
-        <FaBeer />
       </Container>
     </>
   );

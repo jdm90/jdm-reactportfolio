@@ -58,7 +58,7 @@ export default function AboutMe() {
             </a>
           </Col>
           <Col className="mt-3" xs={12} lg={6}>
-            <Table responsive size="sm" className="info-table">
+            <Table responsive size="sm" className="info-table" borderless>
               <tbody>
                 <tr>
                   <td>Age:</td>
@@ -74,7 +74,9 @@ export default function AboutMe() {
                 </tr>
                 <tr>
                   <td>Email:</td>
-                  <td>jdm@mailmasker.com</td>
+                  <td>
+                    <a href="mailto: jdm@mailmasker.com">jdm@mailmasker.com</a>
+                  </td>
                 </tr>
                 <tr>
                   <td>Phone:</td>

@@ -19,7 +19,9 @@ export default function MapComponent() {
       </div>
       <div class="wrapper">
         <FaEnvelope className="icon" />
-        <p>jdm@mailmasker.com</p>
+        <p>
+          <a href="mailto: jdm@mailmasker.com">jdm@mailmasker.com</a>
+        </p>
       </div>
       <div class="wrapper">
         <BsPhoneFill className="icon" />

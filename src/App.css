@@ -104,6 +104,21 @@ body {
   margin: 0 auto;
 }
 
+table {
+  border-style: none;
+}
+
+a {
+  color: #0f9d58;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0f9d58;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .green-text {
   color: #0f9d58;
 }

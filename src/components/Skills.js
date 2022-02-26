@@ -1,5 +1,5 @@
 import React from 'react';
-import { Accordion, Row, Col } from 'react-bootstrap';
+import { Accordion, Row, Col, Container } from 'react-bootstrap';
 
 export default function Skills() {
   return (
@@ -11,12 +11,12 @@ export default function Skills() {
           </Col>
         </Row>
       </div>
-      <div class="mt-3 p-3">
+      <Container className="mt-3 px-5">
         Below are some of the powerful and innovative tools that I use to build
         web and software solutions for individuals and organizations around the
         globe.
-      </div>
-      <div class="mt-3">
+      </Container>
+      <Container className="mt-3">
         <Accordion defaultActiveKey="0">
           <Accordion.Item eventKey="0">
             <Accordion.Header>Frontend</Accordion.Header>
@@ -44,7 +44,7 @@ export default function Skills() {
             <Accordion.Body>Microsoft Office</Accordion.Body>
           </Accordion.Item>
         </Accordion>
-      </div>
+      </Container>
     </div>
   );
 }
