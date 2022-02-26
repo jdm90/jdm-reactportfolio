@@ -78,7 +78,7 @@ export default function AboutMe() {
                 </tr>
                 <tr>
                   <td>Phone:</td>
-                  <td>555-123-4567</td>
+                  <td>872-225-2919</td>
                 </tr>
                 <tr>
                   <td>Freelance:</td>

@@ -23,7 +23,7 @@ export default function MapComponent() {
       </div>
       <div class="wrapper">
         <BsPhoneFill className="icon" />
-        <p>555-867-5309</p>
+        <p>872-225-2919</p>
       </div>
       <div class="wrapper">
         <FaCheck className="icon" />
