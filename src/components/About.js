@@ -51,9 +51,11 @@ export default function AboutMe() {
               modern problems. As the challenges we face today continue to
               evolve, so do I.
             </p>
-            <Button variant="success">
-              <FaFileDownload /> Download Resume
-            </Button>
+            <a href="../../files/JDM-resume.pdf" download>
+              <Button variant="success" type="submit">
+                <FaFileDownload /> Download Resume
+              </Button>
+            </a>
           </Col>
           <Col className="mt-3" xs={12} lg={6}>
             <Table responsive size="sm" className="info-table">
