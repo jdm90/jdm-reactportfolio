@@ -151,7 +151,7 @@ export default function Toolbox() {
               />
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="4">
+          <Accordion.Item eventKey="5">
             <Accordion.Header>Test2</Accordion.Header>
             <Accordion.Body>
               <div class="slider">
