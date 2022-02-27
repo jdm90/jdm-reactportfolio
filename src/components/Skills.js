@@ -65,6 +65,11 @@ export default function Toolbox() {
                 src="../../express.svg"
                 alt="express"
               />
+              <img
+                class="techstack-logo px-3"
+                src="../../python.svg"
+                alt="python"
+              />
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">
