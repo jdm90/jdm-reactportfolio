@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default function Footer() {
-  return (
-    <div>
-      &copy; 2022 All rights reserved.
-      <br />
-      Justin Miles
-    </div>
-  );
+export default class Footer extends Component {
+  getYear() {
+    return new Date().getFullYear();
+  }
+
+  render() {
+    return (
+      <footer>
+        &copy; {this.getYear()} Justin D Miles. All rights reserved.
+      </footer>
+    );
+  }
 }
