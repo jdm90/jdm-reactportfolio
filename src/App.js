@@ -2,11 +2,11 @@ import * as React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Col } from 'react-bootstrap';
 import './App.css';
-import AboutMe from './components/About';
-import Contact from './components/Contact';
 import MainNav from './components/Navbar';
-import Skills from './components/Skills';
-import Works from './components/Works';
+import AboutMe from './components/About';
+import Toolbox from './components/Skills';
+import Experiences from './components/Works';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -18,8 +18,8 @@ export default function App() {
           <div className="main-container">
             <Routes>
               <Route path="/" element={<AboutMe />} />
-              <Route path="/skills" element={<Skills />} />
-              <Route path="/works" element={<Works />} />
+              <Route path="/toolbox" element={<Toolbox />} />
+              <Route path="/experiences" element={<Experiences />} />
               <Route path="/contact" element={<Contact />} />
             </Routes>
           </div>

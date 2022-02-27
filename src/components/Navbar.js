@@ -14,11 +14,11 @@ export default function MainNav() {
               <Nav.Link as={Link} to="/">
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="/skills">
-                Skills
+              <Nav.Link as={Link} to="/toolbox">
+                Toolbox
               </Nav.Link>
-              <Nav.Link as={Link} to="/works">
-                Works
+              <Nav.Link as={Link} to="/experiences">
+                Experiences
               </Nav.Link>
               <Nav.Link as={Link} to="/contact">
                 Contact

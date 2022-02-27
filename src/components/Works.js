@@ -1,13 +1,13 @@
 import React from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 
-export default function Works() {
+export default function Experiences() {
   return (
     <>
       <div className="content-header">
         <Row className="content-header-row">
           <Col>
-            <h3>Works</h3>
+            <h3>Experiences</h3>
           </Col>
         </Row>
       </div>

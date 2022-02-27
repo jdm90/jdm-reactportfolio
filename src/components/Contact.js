@@ -30,7 +30,12 @@ export default function Contact() {
             </h5>
             <div class="container mt-3">
               <Container>
-                <form class="row g-3 contact-form">
+                <form
+                  class="row g-3 contact-form"
+                  name="contact"
+                  method="post"
+                  data-netlify="true"
+                >
                   <div class="col-12">
                     <div class="input-container">
                       <FaUser className="icon" />
@@ -72,6 +77,7 @@ export default function Contact() {
                       Send It!
                     </button>
                   </div>
+                  <input type="hidden" name="contact" value="contact" />
                 </form>
               </Container>
             </div>
