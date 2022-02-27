@@ -1,6 +1,5 @@
 import React from 'react';
 import { Accordion, Row, Col, Container } from 'react-bootstrap';
-import Carousel from 'react-grid-carousel';
 
 export default function Toolbox() {
   return (
