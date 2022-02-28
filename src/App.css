@@ -132,38 +132,6 @@ button {
   background-color: transparent;
 }
 
-/* slider */
-
 .techstack-logo {
   height: 7.5vh;
-}
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-250px * 7));
-  }
-}
-
-.slider {
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-  width: auto;
-}
-
-.slider .slide-track {
-  animation: scroll 40s linear infinite;
-  display: flex;
-  width: calc(250 * 14);
-}
-
-.slider .slide {
-  width: 250px;
-}
-
-.slider img {
-  height: 10vh;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Accordion, Row, Col, Container } from 'react-bootstrap';
+import ProductivityCarousel from './ProductivityCarousel';
 
 export default function Toolbox() {
   return (
@@ -191,6 +192,12 @@ export default function Toolbox() {
                   </div>
                 </div>
               </div>
+            </Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="6">
+            <Accordion.Header>Test123</Accordion.Header>
+            <Accordion.Body>
+              <ProductivityCarousel />
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
