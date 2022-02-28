@@ -132,6 +132,19 @@ button {
   background-color: transparent;
 }
 
+img {
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
 .techstack-logo {
   height: 7.5vh;
+}
+
+.yoyo {
+  background-color: red;
+  color: red;
 }
