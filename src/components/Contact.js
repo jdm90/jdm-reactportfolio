@@ -1,10 +1,32 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaUser, FaComment, FaEnvelope } from 'react-icons/fa';
-import { ContactForm } from './ContactForm';
 import MapComponent from './MapComponent';
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_8dam9i5',
+        'template_veu9flw',
+        form.current,
+        'ARX5c1nViWD3QKpvp'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <>
       <div className="content-header">
@@ -31,14 +53,13 @@ export default function Contact() {
             </h5>
             <div class="container mt-3">
               <Container>
-                <ContactForm />
-              </Container>
-              <Container>
                 <form
                   class="row g-3 contact-form"
                   name="contact"
                   method="post"
                   data-netlify="true"
+                  ref={form}
+                  onSubmit={sendEmail}
                 >
                   <div class="col-12">
                     <div class="input-container">
@@ -46,6 +67,7 @@ export default function Contact() {
                       <input
                         type="text"
                         class="form-control"
+                        name="user_name"
                         id="fullName"
                         placeholder="Full Name"
                         required
@@ -58,6 +80,7 @@ export default function Contact() {
                       <input
                         type="email"
                         class="form-control"
+                        name="user_email"
                         id="emailInfo"
                         placeholder="Email Address"
                         required
@@ -69,6 +92,7 @@ export default function Contact() {
                       <FaComment className="icon" />
                       <textarea
                         class="form-control"
+                        name="message"
                         id="comments"
                         placeholder="Message Me"
                         rows="3"
@@ -77,7 +101,7 @@ export default function Contact() {
                     </div>
                   </div>
                   <div class="col-md-12">
-                    <button type="submit" class="btn">
+                    <button type="submit" value="Send" class="btn">
                       Send It!
                     </button>
                   </div>

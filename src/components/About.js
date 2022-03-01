@@ -17,13 +17,19 @@ export default function AboutMe() {
       <Container className="bio-header-container">
         <Row className="bio-header-row">
           <Col>
-            <Image
-              fluid
-              thumbnail
-              roundedCircle
-              src="https://avatars.githubusercontent.com/u/86698679?v=4"
-              className="bio-photo"
-            ></Image>
+            <a
+              href="https://www.instagram.com/jmiles.raw/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image
+                fluid
+                thumbnail
+                roundedCircle
+                src="https://avatars.githubusercontent.com/u/86698679?v=4"
+                className="bio-photo"
+              ></Image>
+            </a>
           </Col>
           <Col xs={6}>
             <h1>Justin Miles</h1>
