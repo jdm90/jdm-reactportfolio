@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaUser, FaComment, FaEnvelope } from 'react-icons/fa';
+import { ContactForm } from './ContactForm';
 import MapComponent from './MapComponent';
 
 export default function Contact() {
@@ -29,6 +30,9 @@ export default function Contact() {
               Contact <span className="green-text">Form</span>
             </h5>
             <div class="container mt-3">
+              <Container>
+                <ContactForm />
+              </Container>
               <Container>
                 <form
                   class="row g-3 contact-form"
