@@ -22,14 +22,14 @@ export default function Toolbox() {
             <Accordion.Header>Frontend</Accordion.Header>
             <Accordion.Body>
               <img
-                class="techstack-logo px-3"
+                class="techstack-logo px-3 my-3"
                 src="../../javascript.svg"
                 title="JavaScript"
                 alt="JavaScript"
               />
               <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
                 <img
-                  class="techstack-logo px-3 mb-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../react.svg"
                   title="React"
                   alt="React"
@@ -37,14 +37,14 @@ export default function Toolbox() {
               </a>
               <a href="https://redux.js.org/" target="_blank" rel="noreferrer">
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../redux.svg"
                   title="Redux"
                   alt="Redux"
                 />
               </a>
               <img
-                class="techstack-logo px-3"
+                class="techstack-logo px-3 my-3"
                 src="../../html-5.svg"
                 title="HTML"
                 alt="HTML"
@@ -55,7 +55,7 @@ export default function Toolbox() {
                 rel="noreferrer"
               >
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../css-3.svg"
                   title="CSS"
                   alt="CSS"
@@ -67,7 +67,7 @@ export default function Toolbox() {
                 rel="noreferrer"
               >
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../bootstrap.svg"
                   title="Bootstrap"
                   alt="Bootstrap"
@@ -75,7 +75,7 @@ export default function Toolbox() {
               </a>
               <a href="https://mui.com/" target="_blank" rel="noreferrer">
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../material-ui.svg"
                   title="Material UI"
                   alt="Material UI"
@@ -88,7 +88,7 @@ export default function Toolbox() {
             <Accordion.Body>
               <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../nodejs.svg"
                   title="NodeJS"
                   alt="NodeJS"
@@ -100,7 +100,7 @@ export default function Toolbox() {
                 rel="noreferrer"
               >
                 <img
-                  class="techstack-logo px-3 mb-3"
+                  class="techstack-logo px-3 mb-3 my-3"
                   src="../../mongodb.svg"
                   title="MongoDB"
                   alt="MongoDB"
@@ -108,7 +108,7 @@ export default function Toolbox() {
               </a>
               <a href="https://expressjs.com/" target="_blank" rel="noreferrer">
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../express.svg"
                   title="Express"
                   alt="Express"
@@ -120,7 +120,7 @@ export default function Toolbox() {
                 rel="noreferrer"
               >
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../python.svg"
                   title="Python"
                   alt="Python"
@@ -133,7 +133,7 @@ export default function Toolbox() {
             <Accordion.Body>
               <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../git-icon.svg"
                   title="Git"
                   alt="Git"
@@ -141,20 +141,20 @@ export default function Toolbox() {
               </a>
               <a href="https://github.com/" target="_blank" rel="noreferrer">
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../github-icon.svg"
                   title="GitHub"
                   alt="GitHub"
                 />
               </a>
               <img
-                class="techstack-logo px-3"
+                class="techstack-logo px-3 my-3"
                 src="../../bash-icon.svg"
                 title="Bash"
                 alt="Bash"
               />
               <img
-                class="techstack-logo px-3"
+                class="techstack-logo px-3 my-3"
                 src="../../powershell.svg"
                 title="PowerShell"
                 alt="PowerShell"
@@ -165,7 +165,7 @@ export default function Toolbox() {
                 rel="noreferrer"
               >
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../postman-icon.svg"
                   title="Postman"
                   alt="Postman"
@@ -173,7 +173,7 @@ export default function Toolbox() {
               </a>
               <a href="https://www.npmjs.com/" target="_blank" rel="noreferrer">
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../npm-icon.svg"
                   title="NPM"
                   alt="NPM"
@@ -181,14 +181,14 @@ export default function Toolbox() {
               </a>
               <a href="https://yarnpkg.com/" target="_blank" rel="noreferrer">
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../yarn.svg"
                   title="Yarn"
                   alt="Yarn"
                 />
               </a>
               <img
-                class="techstack-logo px-3"
+                class="techstack-logo px-3 my-3"
                 src="../../google-analytics.svg"
                 title="Google Analytics"
                 alt="Google Analytics"
@@ -204,7 +204,7 @@ export default function Toolbox() {
                 rel="noreferrer"
               >
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../visual-studio-code.svg"
                   title="Visual Studio Code"
                   alt="Visual Studio Code"
@@ -216,7 +216,7 @@ export default function Toolbox() {
                 rel="noreferrer"
               >
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../office-icon.svg"
                   title="Microsoft Office"
                   alt="Microsoft Office"
@@ -228,7 +228,7 @@ export default function Toolbox() {
                 rel="noreferrer"
               >
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../dropbox.svg"
                   title="Dropbox"
                   alt="Dropbox"
@@ -241,7 +241,7 @@ export default function Toolbox() {
             <Accordion.Body>
               <a href="https://slack.com/" target="_blank" rel="noreferrer">
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../slack-icon.svg"
                   title="Slack"
                   alt="Slack"
@@ -249,7 +249,7 @@ export default function Toolbox() {
               </a>
               <a href="https://discord.com/" target="_blank" rel="noreferrer">
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../discord-icon.svg"
                   title="Discord"
                   alt="Discord"
@@ -261,7 +261,7 @@ export default function Toolbox() {
                 rel="noreferrer"
               >
                 <img
-                  class="techstack-logo px-3"
+                  class="techstack-logo px-3 my-3"
                   src="../../microsoft-teams.svg"
                   title="Microsoft Teams"
                   alt="Microsoft Teams"

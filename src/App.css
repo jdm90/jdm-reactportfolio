@@ -148,3 +148,12 @@ img:hover {
   background-color: red;
   color: red;
 }
+
+.accordion-button:not(.collapsed) {
+  background-color: #0f9d58;
+  color: white;
+}
+
+.accordion-button:hover {
+  background-color: #0f9d58;
+}
