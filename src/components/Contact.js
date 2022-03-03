@@ -41,13 +41,13 @@ export default function Contact() {
           Have a question or want to collaborate on a project? Let's connect!
         </p>
         <Row>
-          <Col xs={12} lg={6}>
+          <Col xs={12} lg={6} className="mt-3">
             <h5>
               Get in <span className="green-text">Touch</span>
             </h5>
             <MapComponent />
           </Col>
-          <Col xs={12} lg={6}>
+          <Col xs={12} lg={6} className="mt-3">
             <h5>
               Contact <span className="green-text">Form</span>
             </h5>
