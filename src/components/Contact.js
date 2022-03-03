@@ -13,7 +13,7 @@ export default function Contact() {
     emailjs
       .sendForm(
         'service_8dam9i5',
-        'template_veu9flw',
+        'contact_form',
         form.current,
         'ARX5c1nViWD3QKpvp'
       )
@@ -56,8 +56,8 @@ export default function Contact() {
                 <form
                   class="row g-3 contact-form"
                   name="contact"
+                  id="contact-form"
                   method="post"
-                  data-netlify="true"
                   ref={form}
                   onSubmit={sendEmail}
                 >
@@ -67,7 +67,7 @@ export default function Contact() {
                       <input
                         type="text"
                         class="form-control"
-                        name="user_name"
+                        name="name"
                         id="fullName"
                         placeholder="Full Name"
                         required
