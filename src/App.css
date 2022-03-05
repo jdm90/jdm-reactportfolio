@@ -94,8 +94,26 @@ body {
   height: 100%;
 }
 
+.portfolio-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.portfolio-column {
+  display: flex;
+  justify-content: center;
+}
+
 .about-container {
   align-items: center;
+}
+
+.experiences-container {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .info-table {
@@ -151,6 +169,8 @@ img:hover {
 .yoyo {
   background-color: red;
   color: red;
+  display: flex;
+  justify-content: center;
 }
 
 .accordion-button:after {
@@ -170,4 +190,8 @@ img:hover {
 
 .accordion-button:focus {
   box-shadow: none;
+}
+
+.card {
+  margin-top: 1.5rem;
 }
