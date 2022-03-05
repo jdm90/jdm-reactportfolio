@@ -20,7 +20,7 @@ export default function Experiences() {
         </Row>
       </div>
       <Container className="mt-3">
-        <p>Hello - thank you for checking out some of my work!</p>
+        <p>Hello - thank you for checking out my work!</p>
         <p>
           As always, you can follow what I'm working on over at{' '}
           <a href="https://www.github.com/jdm90">Github</a> as well.
@@ -134,7 +134,7 @@ export default function Experiences() {
                 <Card.Img variant="top" src={js30drumkit} height="200px" />
               </a>
               <Card.Body>
-                <Card.Title>JavaScrip Drumkit</Card.Title>
+                <Card.Title>JavaScript Drumkit</Card.Title>
                 <Card.Text>
                   A fun practice project where I created a keyboard drumkit with
                   interactive sounds, using JavaScript, HTML, and CSS.
@@ -172,7 +172,7 @@ export default function Experiences() {
                 <Card.Img variant="top" src={htmlbiopage} height="200px" />
               </a>
               <Card.Body>
-                <Card.Title>Life in the Wild</Card.Title>
+                <Card.Title>First HTML Bio Page</Card.Title>
                 <Card.Text>
                   My first web dev portfolio project. A simple one page bio
                   website, built using HTML and CSS.
