@@ -194,4 +194,12 @@ img:hover {
 
 .card {
   margin-top: 1.5rem;
+  font-size: smaller;
+}
+
+.card-header {
+  background-color: #0f9d58;
+  color: #fff;
+  font-size: smaller;
+  font-weight: bold;
 }

@@ -35,7 +35,7 @@ export default function Experiences() {
                 <Card.Img variant="top" src={ihs2} height="200px" />
               </a>
               <Card.Body>
-                <Card.Title>IHS²</Card.Title>
+                <Card.Title className="card-header">IHS²</Card.Title>
                 <Card.Text>
                   Website for a health supply company that was built and
                   currently maintained on HubSpot.
@@ -57,7 +57,9 @@ export default function Experiences() {
                 />
               </a>
               <Card.Body>
-                <Card.Title>Innovative Group</Card.Title>
+                <Card.Title className="card-header">
+                  Innovative Group
+                </Card.Title>
                 <Card.Text>
                   Website for an experiential marketing agency that was built
                   and currently maintained on WordPress.
@@ -79,10 +81,12 @@ export default function Experiences() {
                 />
               </a>
               <Card.Body>
-                <Card.Title>NuCamp Campsites</Card.Title>
+                <Card.Title className="card-header">
+                  NuCamp Campsites
+                </Card.Title>
                 <Card.Text>
-                  Mock website for a curated database of camsites. Built using
-                  JavaScript, HTML, CSS, and Bootstrap.
+                  Mock website for a curated database of best campsites. Built
+                  using JavaScript, HTML, CSS, and Bootstrap.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -99,7 +103,7 @@ export default function Experiences() {
                 <Card.Img variant="top" src={grocerymate} height="200px" />
               </a>
               <Card.Body>
-                <Card.Title>Grocery Mate</Card.Title>
+                <Card.Title className="card-header">Grocery Mate</Card.Title>
                 <Card.Text>
                   A grocery list web application built with JavaScript, HTML,
                   and CSS.
@@ -121,7 +125,9 @@ export default function Experiences() {
                 />
               </a>
               <Card.Body>
-                <Card.Title>Rock, Paper, Scissors</Card.Title>
+                <Card.Title className="card-header">
+                  Rock, Paper, Scissors
+                </Card.Title>
                 <Card.Text>
                   The classic game of Rock, Paper, Scissors - built with
                   JavaScript, HTML, and CSS.
@@ -139,7 +145,9 @@ export default function Experiences() {
                 <Card.Img variant="top" src={startup} height="200px" />
               </a>
               <Card.Body>
-                <Card.Title>Startup Landing Page</Card.Title>
+                <Card.Title className="card-header">
+                  Startup Landing Page
+                </Card.Title>
                 <Card.Text>
                   A simple, mock, startup event landing page with a Call To
                   Action button that was built with HTML and CSS.
@@ -159,7 +167,9 @@ export default function Experiences() {
                 <Card.Img variant="top" src={js30drumkit} height="200px" />
               </a>
               <Card.Body>
-                <Card.Title>JavaScript Drumkit</Card.Title>
+                <Card.Title className="card-header">
+                  JavaScript Drumkit
+                </Card.Title>
                 <Card.Text>
                   A fun practice project where I created a keyboard drumkit with
                   interactive sounds, using JavaScript, HTML, and CSS.
@@ -177,7 +187,9 @@ export default function Experiences() {
                 <Card.Img variant="top" src={lifeinthewild} height="200px" />
               </a>
               <Card.Body>
-                <Card.Title>Life in the Wild</Card.Title>
+                <Card.Title className="card-header">
+                  Life in the Wild
+                </Card.Title>
                 <Card.Text>
                   Simple one-page wildlife gallery built using HTML, CSS, and
                   Flexbox.
@@ -195,7 +207,9 @@ export default function Experiences() {
                 <Card.Img variant="top" src={htmlbiopage} height="200px" />
               </a>
               <Card.Body>
-                <Card.Title>First HTML Bio Page</Card.Title>
+                <Card.Title className="card-header">
+                  First HTML Bio Page
+                </Card.Title>
                 <Card.Text>
                   My first web dev portfolio project. A simple one page bio
                   website, built using HTML and CSS.
