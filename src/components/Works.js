@@ -10,6 +10,9 @@ import htmlbiopage from '../images/htmlbiopage.png';
 import ihs2 from '../images/screencap.png';
 import nucampsitebootstrap from '../images/nucampsitebootstrap.png';
 
+import { SocialIcon } from 'react-social-icons';
+import { FaFileDownload } from 'react-icons/fa';
+
 export default function Experiences() {
   return (
     <>
@@ -41,6 +44,7 @@ export default function Experiences() {
                   currently maintained on HubSpot.
                 </Card.Text>
               </Card.Body>
+              <Card.Footer>#hubspot</Card.Footer>
             </Card>
           </Col>
           <Col className="portfolio-column">
@@ -65,6 +69,7 @@ export default function Experiences() {
                   and currently maintained on WordPress.
                 </Card.Text>
               </Card.Body>
+              <Card.Footer>#wordpress</Card.Footer>
             </Card>
           </Col>
           <Col className="portfolio-column">
@@ -89,6 +94,7 @@ export default function Experiences() {
                   using JavaScript, HTML, CSS, and Bootstrap.
                 </Card.Text>
               </Card.Body>
+              <Card.Footer>#html #css #bootstrap #javascript</Card.Footer>
             </Card>
           </Col>
         </Row>
@@ -109,6 +115,7 @@ export default function Experiences() {
                   and CSS.
                 </Card.Text>
               </Card.Body>
+              <Card.Footer>#html #css #javascript</Card.Footer>
             </Card>
           </Col>
           <Col className="portfolio-column">
@@ -133,6 +140,7 @@ export default function Experiences() {
                   JavaScript, HTML, and CSS.
                 </Card.Text>
               </Card.Body>
+              <Card.Footer>#html #css #javascript</Card.Footer>
             </Card>
           </Col>
           <Col className="portfolio-column">
@@ -153,6 +161,7 @@ export default function Experiences() {
                   Action button that was built with HTML and CSS.
                 </Card.Text>
               </Card.Body>
+              <Card.Footer>#html #css</Card.Footer>
             </Card>
           </Col>
         </Row>
@@ -175,6 +184,7 @@ export default function Experiences() {
                   interactive sounds, using JavaScript, HTML, and CSS.
                 </Card.Text>
               </Card.Body>
+              <Card.Footer>#html #css #javascript</Card.Footer>
             </Card>
           </Col>
           <Col className="portfolio-column">
@@ -195,6 +205,7 @@ export default function Experiences() {
                   Flexbox.
                 </Card.Text>
               </Card.Body>
+              <Card.Footer>#html #css #flexbox</Card.Footer>
             </Card>
           </Col>
           <Col className="portfolio-column">
@@ -215,6 +226,7 @@ export default function Experiences() {
                   website, built using HTML and CSS.
                 </Card.Text>
               </Card.Body>
+              <Card.Footer>#html #css</Card.Footer>
             </Card>
           </Col>
         </Row>
