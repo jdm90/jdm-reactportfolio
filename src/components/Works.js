@@ -10,9 +10,6 @@ import htmlbiopage from '../images/htmlbiopage.png';
 import ihs2 from '../images/screencap.png';
 import nucampsitebootstrap from '../images/nucampsitebootstrap.png';
 
-import { SocialIcon } from 'react-social-icons';
-import { FaFileDownload } from 'react-icons/fa';
-
 export default function Experiences() {
   return (
     <>
