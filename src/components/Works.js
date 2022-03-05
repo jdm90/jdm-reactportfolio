@@ -7,6 +7,7 @@ import grocerymate from '../images/grocerymate.png';
 import js30drumkit from '../images/wbjs30drumkit.jpg';
 import lifeinthewild from '../images/lifeinthewildgallery.jpg';
 import htmlbiopage from '../images/htmlbiopage.png';
+import ihs2 from '../images/screencap.png';
 
 export default function Experiences() {
   return (
@@ -30,11 +31,7 @@ export default function Experiences() {
           <Col className="portfolio-column">
             <Card style={{ width: '18rem' }} className="shadow">
               <a href="https://www.ihs2.com/" target="_blank" rel="noreferrer">
-                <Card.Img
-                  variant="top"
-                  src="../images/screencap.png"
-                  height="200px"
-                />
+                <Card.Img variant="top" src={ihs2} height="200px" />
               </a>
               <Card.Body>
                 <Card.Title>IHS²</Card.Title>
