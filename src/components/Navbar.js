@@ -8,7 +8,7 @@ export default function MainNav() {
     <div>
       <Navbar expand="lg" expanded={expanded}>
         <Container>
-          <Navbar.Brand href="#home">Justin Miles</Navbar.Brand>
+          <Navbar.Brand href="/">Justin Miles</Navbar.Brand>
           <Navbar.Toggle
             onClick={() => setExpanded(expanded ? false : 'expanded')}
             aria-controls="basic-navbar-nav"
