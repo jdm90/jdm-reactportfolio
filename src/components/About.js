@@ -39,16 +39,19 @@ export default function AboutMe() {
                 bgColor="#fff"
                 url="https://linkedin.com/in/milesjustin"
                 className="social-icon"
+                target="_blank"
               />
               <SocialIcon
                 bgColor="#fff"
                 url="https://github.com/jdm90"
                 className="social-icon"
+                target="_blank"
               />
               <SocialIcon
                 bgColor="#fff"
                 url="https://twitter.com/jmiles90"
                 className="social-icon"
+                target="_blank"
               />
             </Stack>
           </Col>
