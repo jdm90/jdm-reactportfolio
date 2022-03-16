@@ -26,6 +26,11 @@ export default function Experiences() {
           As always, you can follow what I'm working on over at{' '}
           <a href="https://www.github.com/jdm90">Github</a> as well.
         </p>
+        <p>
+          This website was created with the React JavaScript library and React
+          Router. I also used CSS, Bootstrap/React Bootstrap, React Icons, and
+          Google Fonts for the styling.
+        </p>
       </Container>
       <Container className="experiences-container my-3">
         <Row className="portfolio-row">
