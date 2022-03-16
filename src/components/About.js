@@ -79,10 +79,6 @@ export default function AboutMe() {
             <Table responsive size="sm" className="info-table" borderless>
               <tbody>
                 <tr>
-                  <td>Age:</td>
-                  <td>31</td>
-                </tr>
-                <tr>
                   <td>Residence:</td>
                   <td>USA</td>
                 </tr>
@@ -93,12 +89,10 @@ export default function AboutMe() {
                 <tr>
                   <td>Email:</td>
                   <td>
-                    <a href="mailto: jdm@mailmasker.com">jdm@mailmasker.com</a>
+                    <a href="mailto: jdmiles90@gmail.com">
+                      jdmiles90@gmail.com
+                    </a>
                   </td>
-                </tr>
-                <tr>
-                  <td>Phone:</td>
-                  <td>872-225-2919</td>
                 </tr>
                 <tr>
                   <td>Freelance:</td>
