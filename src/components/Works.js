@@ -24,7 +24,7 @@ export default function Experiences() {
         <p>Hello - thank you for checking out my work!</p>
         <p>
           As always, you can follow what I'm working on over at{' '}
-          <a href="https://www.github.com/jdm90">Github</a> as well.
+          <a href="https://www.github.com/jdm90">GitHub</a> as well.
         </p>
         <p>
           This website was created with the React JavaScript library and React

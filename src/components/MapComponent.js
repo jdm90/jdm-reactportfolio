@@ -1,6 +1,5 @@
 import React from 'react';
 import { FaMapPin, FaEnvelope, FaCheck } from 'react-icons/fa';
-import { BsPhoneFill } from 'react-icons/bs';
 
 export default function MapComponent() {
   return (
@@ -20,12 +19,8 @@ export default function MapComponent() {
       <div class="wrapper">
         <FaEnvelope className="icon" />
         <p>
-          <a href="mailto: jdm@mailmasker.com">jdm@mailmasker.com</a>
+          <a href="mailto: jdmiles90@gmail.com">jdmiles90@gmail.com</a>
         </p>
-      </div>
-      <div class="wrapper">
-        <BsPhoneFill className="icon" />
-        <p>872-225-2919</p>
       </div>
       <div class="wrapper">
         <FaCheck className="icon" />
