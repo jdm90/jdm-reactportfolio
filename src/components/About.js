@@ -69,7 +69,7 @@ export default function AboutMe() {
               modern problems. As the challenges we face today continue to
               evolve, so do I.
             </p>
-            <a href="../../files/01_JDMresume_20220316.pdf" download>
+            <a href="../../files/01_JDM_resume_20220329.pdf" download>
               <Button variant="success" type="submit">
                 <FaFileDownload /> Download Resume
               </Button>
