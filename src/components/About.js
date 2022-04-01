@@ -59,15 +59,16 @@ export default function AboutMe() {
       </Container>
       <Container className="about-container mt-3">
         <Row className="about-row">
-          <Col className="mt-3" xs={12} lg={6}>
+          <Col className="my-3" xs={12} lg={6}>
             <h5>
               About <span className="green-text">Me</span>
             </h5>
             <p>
-              Hello! I'm Justin Miles. I am a dedicated and determined developer
-              fueled by passion and focused on creating effective solutions for
-              modern problems. As the challenges we face today continue to
-              evolve, so do I.
+              I am passionate about technology because it empowers me to push
+              the boundaries of my potential and bridges the gap between what is
+              currently impossible and what will be possible tomorrow. I'm a
+              driven and ever-evolving solutionist who focuses on solving modern
+              problems with a determined but adaptable approach.
             </p>
             <a href="../../files/01_JDM_resume_20220329.pdf" download>
               <Button variant="success" type="submit">
